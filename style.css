@@ -1,0 +1,227 @@
+
+.main{
+    background-color: white;
+    /* text-align: center; */
+    padding: 10px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.nav{
+    padding: 0.925% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav a {
+    text-decoration: none;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    color: black;
+}
+.Logo{
+    width: 140px;
+
+}
+.signUp-btn{
+    width: 90%;
+    border: none;
+    background: #4BA87D;
+    box-shadow: 0px 10px 10px 1px rgba(219,219,219,0.5);
+    padding: 15px 5px;
+    margin-right: 15px;
+    color: white;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 800;
+
+}
+/* **************************************************************************************** */
+
+.header1{
+    background-color: white;
+    
+    padding: 10px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    background-position: center;
+}
+
+.header1 h1{
+    font-size: 70px;
+    color: black;
+    font-weight: 500;
+}
+.header1 p{
+    margin: 10px 0 30px;
+    color: black;
+}
+.header1 ul button{
+    padding: 15px 15px;
+    width: 150px;
+    border: none;
+    background: #4BA87D;
+    box-shadow: 0px 10px 10px 1px rgba(219,219,219,0.5);
+    color: white;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 800;
+}
+/* njscasjc nslcsaklc  c */
+
+.hero{
+    margin-top: 10%;
+    max-width: 1000px;
+    margin-left: 400px;
+    
+    background-image: url(images/hero.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hero h1{
+    font-size: 70px;
+    color: black;
+    font-weight: 500;
+}
+.hero p{
+    margin: 10px 0 30px;
+    color: black;
+}
+.hero ul button{
+    padding: 15px 15px;
+    width: 150px;
+    border: none;
+    background: #4BA87D;
+    box-shadow: 0px 10px 10px 1px rgba(219,219,219,0.5);
+    color: white;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 800;
+}
+/* ************************************************************************************* */
+
+.video{
+    margin-top: 80px;
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/video.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+.video h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    margin-top: 220px;
+    
+
+}
+.video button{
+    margin-top: 10px;
+    padding: 15px 15px;
+    width: 150px;
+    border: none;
+    background:white;
+    color: #4BA87D;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 800;
+
+}
+/* 
+.sec3-i1{
+    margin-left: 0px;margin-top: 1px;background-image: url(images/White\ Box.png);border: 200px;padding: 60px 60px;
+}
+.sec3-i2{
+    margin-left: 0;margin-top: 1px;background-image: url(images/White\ Box.png);border: 200px;padding: 60px 60px;
+} */
+/* ***************************************************** */
+/* media query */
+/* @media screen and (max-width: 952px) {
+
+    .main_header h1 {
+      text-align: center;
+    }
+  
+    body .main_header p {
+      text-align: center;
+    }
+  
+  } */
+  
+@media screen and (max-width: 768px) {
+    /* body h1{
+     font-size: 1.7rem;
+    }
+    body p{
+      font-size: 1.1rem;
+    }
+    #header_image1{
+      max-width: 200px;
+      width:100%;
+    } */
+    .header8{
+        text-align: center;
+    }
+    }
+
+
+    @media screen and (max-width: 1200px) {
+        /* body h1{
+         font-size: 1.7rem;
+        }
+        body p{
+          font-size: 1.1rem;
+        }
+        #header_image1{
+          max-width: 200px;
+          width:100%;
+        } */
+        .header3{
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        }
+
+    @media screen and (max-width: 1400px) {
+        /* body h1{
+         font-size: 1.7rem;
+        }
+        body p{
+          font-size: 1.1rem;
+        }
+        #header_image1{
+          max-width: 200px;
+          width:100%;
+        } */
+        .header3{
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+        .header3 .sec3-i1{
+            margin: auto;
+        }
+        .header3 .sec3-i2{
+            margin: auto;
+        }
+        .header3 .sec3-i3{
+            margin: auto;
+        }
+
+        }
